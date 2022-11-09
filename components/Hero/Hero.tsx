@@ -1,11 +1,6 @@
 import React from "react";
-import Image from "next/legacy/image";
 
-import patternArrowDown from "../../public/patterns/arrow-down.svg";
-
-type HeroProps = {};
-
-function Hero({}: HeroProps) {
+function Hero() {
 
   return (
     <section className="w-full h-screen pt-16 sm:pt-0 sm:flex sm:items-center" aria-label="Sekcja hero">
@@ -19,9 +14,9 @@ function Hero({}: HeroProps) {
           Stawiamy na <strong>najnowsze trendy i stylizacje</strong>, a oprócz usług stylizacyjnych włosów, oferujemy również <strong>zabiegi regenerujące</strong>.
         </p>
         <a className="px-4 py-3 border border-white w-fit font-medium text-neutral-200 transition-colors hover:bg-white hover:text-black xl:text-2xl" href="#location">
-          Zobacz gdzie nas znajdziesz
+          Zobacz gdzie jesteśmy
         </a>
-        <a className="transition-transform absolute right-0 -bottom-12 translate-y-full hover:scale-125" href="#location">
+        <a className="transition-transform absolute right-0 -bottom-12 translate-y-full hover:scale-125" href="#about">
           <svg className="w-24 h-auto md:w-36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path fill="white" d="M500 990L266.2 756.2l27-27L482 918.1V10h36v908.1l188.8-188.8 27 27L500 990z"/></svg>
         </a>
       </div>

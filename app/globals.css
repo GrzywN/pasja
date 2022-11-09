@@ -5,12 +5,17 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     font-family: 'Raleway', sans-serif;
 
     background-color: black;
     background-image: linear-gradient(to bottom, black 0%, black 33%, transparent 100%), url("/images/hero.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: right center;
   }
