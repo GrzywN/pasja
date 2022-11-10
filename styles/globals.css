@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@100;200;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@100;200;300;400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,22 +10,40 @@
   }
 
   body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
+  }
 
+  #hero {
     background-color: black;
-    background-image: linear-gradient(to bottom, black 0%, black 33%, transparent 100%), url("/images/hero.jpg");
+    background-image: linear-gradient(
+        to bottom,
+        black 0%,
+        black 33%,
+        transparent 100%
+      ),
+      url("/images/hero.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    background-position: right center;
+    background-position: right bottom;
   }
 
   @media (min-width: 640px) {
     body {
-      background-image: linear-gradient(to left, transparent 0%, black 22.5%, black 100%), url("/images/hero.jpg");
+      background-image: linear-gradient(
+          to left,
+          transparent 0%,
+          black 22.5%,
+          black 100%
+        ),
+        url("/images/hero.jpg");
+      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: right center center center;
+      background-position: right center;
+    }
+
+    #hero {
+      background: none;
     }
   }
 
@@ -35,6 +53,6 @@
   h4,
   h5,
   h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
   }
 }
