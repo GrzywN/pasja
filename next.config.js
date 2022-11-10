@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
+  i18n: {
+    locales: ['pl-PL'],
+    defaultLocale: 'pl-PL',
   },
+  reactStrictMode: true,
+  swcMinify: true,
 }
 
 module.exports = nextConfig
