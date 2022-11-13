@@ -4,7 +4,7 @@ type CtaProps = { className?: string, text: string, destination: string };
 
 function Cta({ className, text, destination }: CtaProps) {
   return (
-    <a className={`${className} px-4 py-3 border border-white w-max font-medium text-lg text-neutral-200 transition-colors hover:bg-white hover:text-black xl:text-xl 2xl:text-2xl`} href={destination}>
+    <a className={`${className} px-4 py-3 border border-white w-max font-medium text-lg text-neutral-200 bg-black transition-colors hover:bg-white hover:border-black hover:text-black xl:text-xl 2xl:text-2xl`} href={destination}>
       {text}
     </a>
   );

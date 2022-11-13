@@ -2,6 +2,7 @@ import React from "react";
 import { useLoadScript } from "@react-google-maps/api";
 import Map from "../Map";
 import Cta from "../Cta";
+import LoadingSpinner from "../LoadingSpinner";
 
 function Location() {
   const { isLoaded } = useLoadScript({
@@ -23,8 +24,8 @@ function Location() {
           </p>
           <Cta className="absolute left-1/2 -translate-x-1/2 -bottom-0 translate-y-full lg:-bottom-16" text="Umów się na wizytę" destination="#appointment" />
         </div>
-        <div className="w-full max-w-[100vw-4rem] h-80 md:h-96 lg:h-30 xl:h-[30rem] 2xl:h-[35rem]">
-          {!!isLoaded && <Map className="w-full h-full" />}
+        <div className="bg-white grid place-items-center w-full max-w-[100vw-4rem] h-80 md:h-96 lg:h-30 xl:h-[30rem] 2xl:h-[35rem]">
+          {!!isLoaded ? <Map className="w-full h-full" /> : <LoadingSpinner />}
         </div>
       </div>
     </section>
