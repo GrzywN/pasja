@@ -23,7 +23,7 @@
         black 33%,
         transparent 100%
       ),
-      url("/images/hero.jpg");
+      url("/images/hero.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -37,7 +37,7 @@
         beige 42%,
         beige 100%
       ),
-      url("/images/appointment.jpg");
+      url("/images/appointment.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
@@ -51,7 +51,7 @@
           black 22.5%,
           black 100%
         ),
-        url("/images/hero.jpg");
+        url("/images/hero.avif");
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: contain;
