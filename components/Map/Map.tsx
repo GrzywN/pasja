@@ -1,19 +1,19 @@
 import React, { useMemo } from "react";
-import { GoogleMap, Marker } from "@react-google-maps/api"
+import { GoogleMap, MarkerF } from "@react-google-maps/api"
 
 type MapProps = { className: string };
 
 function Map({ className }: MapProps) {
 
-  const center = useMemo(() => ({ lat: 44, lng: -80 }), []);
+  const center = useMemo(() => ({ lat: 50.599180, lng: 19.165490 }), []);
 
   return (
     <GoogleMap
-      zoom={12}
+      zoom={11}
       center={center}
       mapContainerClassName={className}
     >
-      <Marker position={center} />
+      <MarkerF position={center} />
     </GoogleMap>
   );
 }
