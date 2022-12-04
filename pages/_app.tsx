@@ -2,8 +2,8 @@ import "../styles/globals.css";
 import { Playfair_Display, Raleway } from "@next/font/google";
 import type { AppProps } from "next/app";
 
-const raleway = Raleway({ subsets: ['latin'] });
-const playfairDisplay = Playfair_Display({ subsets: ['latin'] });
+const raleway = Raleway({ subsets: ['latin', 'latin-ext'] });
+const playfairDisplay = Playfair_Display({ subsets: ['latin', 'latin-ext'] });
 
 function Website({ Component, pageProps }: AppProps) {
   return (
