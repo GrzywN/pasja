@@ -8,12 +8,12 @@ function Meta() {
   const seo: NextSeoProps = {
     title: "Studio Fruzur Pasja | Usługi fryzjerskie i kosmetyczne",
     description: "Stanowimy zgraną ekipę i zapewniamy kompleksowe usługi fryzjerskie na miarę potrzeb klienta. Stawiamy na najnowsze trendy i stylizacje, a oprócz usług stylizacyjnych włosów, oferujemy również zabiegi regenerujące.",
-    canonical: `https://pasja.vercel.app${pathname}`,
+    canonical: `https://studiofryzurpasja.pl${pathname}`,
     openGraph: {
       type: "website",
       locale: "pl_PL",
       site_name: "Studio Fryzur Pasja",
-      url: `https://pasja.vercel.app${pathname}`
+      url: `https://studiofryzurpasja.pl${pathname}`
     },
     twitter: {
       cardType: "summary_large_image",
@@ -25,7 +25,7 @@ function Meta() {
       },
       {
         name: "keywords",
-        content: "fryzjer, fryzjerka, koziegłowy, kozieglowy, studio, salon, fryzur, fryzury, uslugi, fryzjerskie, kosmetyczne",
+        content: "pasja, fryzjer, fryzjerka, koziegłowy, kozieglowy, studio, salon, fryzur, fryzury, uslugi, fryzjerskie, kosmetyczne",
       }
     ],
     additionalLinkTags: [
