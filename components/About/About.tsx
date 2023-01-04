@@ -17,7 +17,7 @@ function About() {
           <p className="max-w-prose grid gap-4 text-neutral-800 xl:gap-5 xl:text-xl xl:text-left">
             <span>Jako zgrany zespół świadczymy <strong>kompleksowe usługi fryzjerskie oraz kosmetyczne</strong>.</span>
             <span>Dzięki zaangażowaniu i kursom stale powiększamy <strong>zakres wiedzy</strong>, aby zapewnić <strong>jak najlepsze wrażenia</strong> dla naszych klientów.</span>
-            <span>Korzystamy z gammy <strong>przetestowanych</strong> przez nas produktów <strong>najwyższej jakości</strong>.</span>
+            <span>Korzystamy z gamy <strong>przetestowanych</strong> przez nas produktów <strong>najwyższej jakości</strong>.</span>
           </p>
           <Cta text="Zobacz gdzie jesteśmy" destination="#location" />
         </div>
