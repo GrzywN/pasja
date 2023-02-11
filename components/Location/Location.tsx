@@ -1,8 +1,7 @@
-import React from 'react';
 import { useLoadScript } from '@react-google-maps/api';
-import Map from '../Map';
 import Cta from '../Cta';
 import LoadingSpinner from '../LoadingSpinner';
+import Map from '../Map';
 
 function Location() {
   const { isLoaded } = useLoadScript({

@@ -1,6 +1,5 @@
-import React from 'react';
-import { useRouter } from 'next/router';
 import { NextSeo, NextSeoProps } from 'next-seo';
+import { useRouter } from 'next/router';
 
 function Meta() {
   const { pathname } = useRouter();

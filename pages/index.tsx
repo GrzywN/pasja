@@ -1,10 +1,9 @@
-import React from 'react';
-import Meta from '../components/Meta';
-import Hero from '../components/Hero';
 import About from '../components/About';
-import Location from '../components/Location';
 import Appointment from '../components/Appointment';
 import Footer from '../components/Footer';
+import Hero from '../components/Hero';
+import Location from '../components/Location';
+import Meta from '../components/Meta';
 
 function HomePage() {
   return (

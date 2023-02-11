@@ -1,5 +1,3 @@
-import React from 'react';
-
 type CtaProps = { className?: string; text: string; destination: string };
 
 function Cta({ className, text, destination }: CtaProps) {

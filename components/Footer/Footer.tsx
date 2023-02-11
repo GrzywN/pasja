@@ -1,4 +1,3 @@
-import React from 'react';
 import { IconArrowUp } from '@tabler/icons';
 
 function Footer() {

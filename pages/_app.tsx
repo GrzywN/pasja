@@ -1,6 +1,6 @@
-import '../styles/globals.css';
 import { Playfair_Display, Raleway } from '@next/font/google';
 import type { AppProps } from 'next/app';
+import '../styles/globals.css';
 
 const raleway = Raleway({ subsets: ['latin', 'latin-ext'] });
 const playfairDisplay = Playfair_Display({ subsets: ['latin', 'latin-ext'] });

@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
 import { GoogleMap, MarkerF } from '@react-google-maps/api';
+import { useMemo } from 'react';
 
 type MapProps = { className: string };
 
