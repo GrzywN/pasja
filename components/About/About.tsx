@@ -30,9 +30,8 @@ function About(props: AboutProps) {
       aria-label={sectionTitle}
       id={sectionId}
     >
-      <div className="mx-auto flex max-w-5xl flex-col-reverse items-center gap-16 px-8 py-16 sm:grid sm:grid-cols-2 lg:max-w-6xl 2xl:max-w-7xl">
+      <div className="mx-auto flex max-w-5xl flex-col-reverse items-center gap-16 px-8 py-16 sm:grid sm:grid-cols-2 lg:-my-48 lg:max-w-6xl 2xl:max-w-7xl">
         <Image
-          className="w-full shadow-2xl lg:scale-110 xl:h-auto xl:w-3/4 xl:scale-[1.175] 2xl:scale-125"
           src={imageSrc}
           alt={imageAlt}
           sizes="(max-width: 768px) 95vw, (min-width: 640px) 40vw, (min-width: 1024px) 50vw"
