@@ -5,7 +5,7 @@ function LoadingSpinner() {
     <div role="status">
       <svg
         aria-hidden="true"
-        className="mx-auto w-1/3 h-auto text-neutral-400 animate-spin fill-neutral-800"
+        className="mx-auto h-auto w-1/3 animate-spin fill-neutral-800 text-neutral-400"
         viewBox="0 0 100 101"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

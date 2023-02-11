@@ -22,12 +22,12 @@ function Hero(props: HeroProps) {
 
   return (
     <section
-      className="w-full h-screen pt-16 sm:pt-0 sm:flex sm:items-center"
+      className="h-screen w-full pt-16 sm:flex sm:items-center sm:pt-0"
       aria-label={sectionTitle}
       id={sectionId}
     >
-      <div className="relative px-8 mx-auto w-full max-w-6xl grid gap-6 lg:gap-12 2xl:max-w-7xl">
-        <h1 className="text-4xl font-extralight tracking-tight transition text-white sm:text-6xl lg:text-7xl 2xl:text-8xl">
+      <div className="relative mx-auto grid w-full max-w-6xl gap-6 px-8 lg:gap-12 2xl:max-w-7xl">
+        <h1 className="text-4xl font-extralight tracking-tight text-white transition sm:text-6xl lg:text-7xl 2xl:text-8xl">
           {heading}
         </h1>
         <p className="max-w-prose text-neutral-200 sm:text-xl xl:text-left 2xl:text-2xl">

@@ -7,22 +7,22 @@ import imageAbout from '../../public/images/about.jpg';
 function About() {
   return (
     <section
-      className="w-full min-h-screen bg-white pt-16 sm:pt-0 sm:flex sm:items-center"
+      className="min-h-screen w-full bg-white pt-16 sm:flex sm:items-center sm:pt-0"
       aria-label="O nas"
       id="about"
     >
-      <div className="mx-auto max-w-5xl flex flex-col-reverse gap-16 px-8 py-16 items-center sm:grid sm:grid-cols-2 lg:max-w-6xl 2xl:max-w-7xl">
+      <div className="mx-auto flex max-w-5xl flex-col-reverse items-center gap-16 px-8 py-16 sm:grid sm:grid-cols-2 lg:max-w-6xl 2xl:max-w-7xl">
         <Image
-          className="shadow-2xl w-full xl:w-3/4 xl:h-auto lg:scale-110 xl:scale-[1.175] 2xl:scale-125"
+          className="w-full shadow-2xl lg:scale-110 xl:h-auto xl:w-3/4 xl:scale-[1.175] 2xl:scale-125"
           src={imageAbout}
           alt=""
           sizes="(max-width: 768px) 95vw, (min-width: 640px) 40vw, (min-width: 1024px) 50vw"
         />
-        <div className="relative border border-black p-8 mx-auto w-full grid gap-6 lg:gap-12">
-          <h2 className="text-4xl font-extralight tracking-tight transition text-black sm:text-6xl lg:text-7xl xl:text-8xl">
+        <div className="relative mx-auto grid w-full gap-6 border border-black p-8 lg:gap-12">
+          <h2 className="text-4xl font-extralight tracking-tight text-black transition sm:text-6xl lg:text-7xl xl:text-8xl">
             O nas
           </h2>
-          <p className="max-w-prose grid gap-4 text-neutral-800 xl:gap-5 xl:text-xl xl:text-left">
+          <p className="grid max-w-prose gap-4 text-neutral-800 xl:gap-5 xl:text-left xl:text-xl">
             <span>
               Jako zgrany zespół świadczymy{' '}
               <strong>kompleksowe usługi fryzjerskie oraz kosmetyczne</strong>.
