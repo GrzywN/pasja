@@ -57,7 +57,21 @@ function HomePage() {
           ctaButtonText="Zobacz gdzie jesteśmy"
           ctaButtonDestination="#location"
         />
-        <Location />
+        <Location
+          sectionTitle="Nasza lokalizacja"
+          sectionId="location"
+          sectionHeading="Nasza lokalizacja"
+          heading="Gdzie?"
+          paragraph={
+            <>
+              Nasze studio fryzur znajduję się w Koziegłowach niedaleko
+              Częstochowy. Salon znajduję się na placu, na ulicy Żareckiej 24
+              bezpośrednio obok budynku Domu Kultury.
+            </>
+          }
+          ctaButtonText="Umów się na wizytę"
+          ctaButtonDestination="#appointment"
+        />
         <Appointment />
       </main>
       <Footer />
