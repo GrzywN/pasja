@@ -22,7 +22,7 @@ function Hero(props: HeroProps) {
 
   return (
     <section
-      className="h-screen w-full pt-16 sm:flex sm:items-center sm:pt-0"
+      className="min-h-screen w-full pt-16 sm:flex sm:items-center sm:pt-0"
       aria-label={sectionTitle}
       id={sectionId}
     >
