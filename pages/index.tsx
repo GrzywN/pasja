@@ -72,7 +72,18 @@ function HomePage() {
           ctaButtonText="Umów się na wizytę"
           ctaButtonDestination="#appointment"
         />
-        <Appointment />
+        <Appointment
+          sectionTitle="Umów się na wizytę"
+          sectionId="appointment"
+          heading="Umów sie na wizytę"
+          paragraph={
+            <>
+              Aby umówić się na wizytę w naszym salonie, prosimy o kontakt
+              telefoniczny pod numer:
+            </>
+          }
+          phoneNumber="512499648"
+        />
       </main>
       <Footer />
     </>
