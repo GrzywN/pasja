@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Studio Fryzur Pasja - A local business hairdresser's website.
 
-First, run the development server:
+A dedicated website that serves as the local company's business card and aims to make the company stand out among its competitors. My services additionally included placement of the hair salon on Google maps and promotion through Google Ads.
+
+## Demo
+
+[studiofryzurpasja.pl](https://studiofryzurpasja.pl/)
+
+## Screenshots
+
+![App Screenshot](./docs/preview.png)
+
+## Tech Stack
+
+**Framework:** `Next.js`, `React`
+
+**Design:** `Tailwind CSS`, `@tabler/icons`
+
+**Integrations:** `Google Analytics`, `Google Maps API`
+
+**Workflow:** `ESLint`, `TypeScript`, `Prettier`
+
+## Features
+
+- Google Maps map with the location of the hair salon.
+
+## Roadmap
+
+- Make the page footer more appealing to the user.
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/GrzywN/pasja.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd pasja
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Install dependencies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  yarn install
+```
 
-## Learn More
+Start the server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  yarn start
+```
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To deploy this project on Vercel, use the default settings for the Next.js framework.
