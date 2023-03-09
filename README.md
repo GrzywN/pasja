@@ -34,25 +34,25 @@ A dedicated website that serves as the local company's business card and aims to
 Clone the project
 
 ```bash
-  git clone https://github.com/GrzywN/pasja.git
+git clone https://github.com/GrzywN/pasja.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd pasja
+cd pasja
 ```
 
 Install dependencies
 
 ```bash
-  yarn install
+yarn install
 ```
 
 Start the server
 
 ```bash
-  yarn start
+yarn start
 ```
 ## Deployment
 
